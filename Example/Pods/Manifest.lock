@@ -1,0 +1,16 @@
+PODS:
+  - EmpowerCustomAdapter (0.1.0)
+
+DEPENDENCIES:
+  - EmpowerCustomAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  EmpowerCustomAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmpowerCustomAdapter: 314ff87c13a395d3a23f6fd05bcc0434051197bf
+
+PODFILE CHECKSUM: 6d0e171772c7c34bb466cc11480b981396ca2662
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0183804DDB61982E0C3984E763CDCAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		11661F049717E707CF679D16719B21D0 /* EmpowerCustomAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1813A66BF8F672EBA5380AB07FC32 /* EmpowerCustomAdapter-dummy.m */; };
+		1F29F9FA59B5EF0C954D4946D52BEE79 /* Pods-EmpowerCustomAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD14D88A6B8BA943A3228DA89FF21497 /* Pods-EmpowerCustomAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22437431C6CE8EE1F9F1840488488AA9 /* Pods-EmpowerCustomAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58040DD2F3B6E19EEDD243756E6475FA /* Pods-EmpowerCustomAdapter_Example-dummy.m */; };
+		425742315F509121D473D3F8352CC2E9 /* Pods-EmpowerCustomAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D14B496402AB19321ACA90BA68EA4C /* Pods-EmpowerCustomAdapter_Tests-dummy.m */; };
+		6EF7FF6B0393D891F387929C26CB5496 /* Pods-EmpowerCustomAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CCFA83E08CB90B80C286878FC50179 /* Pods-EmpowerCustomAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A258EF195599C04D19E460F6AC537EE2 /* EmpowerCustomAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD2C8291578C8B8FEC55DB08119A894 /* EmpowerCustomAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10F3EE4E23737793289C114BA12F0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCB4433F4EED61E31A24C1DB1712FF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A25C0A98C770265E1BE4235044E92D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8A00F9DDEB523B58F94E8E3DAC5AA4;
+			remoteInfo = "Pods-EmpowerCustomAdapter_Example";
+		};
+		AA2C9B79529B62E4B05402156AA5947D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50BACA17578166EC2A41FEA2E4C20A92;
+			remoteInfo = EmpowerCustomAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C1813A66BF8F672EBA5380AB07FC32 /* EmpowerCustomAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmpowerCustomAdapter-dummy.m"; sourceTree = "<group>"; };
+		072D6E456FE1CD60B82DC1C83B3B97A0 /* EmpowerCustomAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmpowerCustomAdapter-prefix.pch"; sourceTree = "<group>"; };
+		1D239A70DC56CDD4AFC121446F8A1869 /* Pods-EmpowerCustomAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmpowerCustomAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F2D209FBD1F6386C9CA438C20632535 /* Pods-EmpowerCustomAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmpowerCustomAdapter_Example.modulemap"; sourceTree = "<group>"; };
+		23FFD2E2E5034882C7E19E737143F5A6 /* Pods-EmpowerCustomAdapter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmpowerCustomAdapter_Tests"; path = Pods_EmpowerCustomAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CCFA83E08CB90B80C286878FC50179 /* Pods-EmpowerCustomAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmpowerCustomAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E038DDA059CD4E5BFE7017EF97C576F /* EmpowerCustomAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmpowerCustomAdapter-Info.plist"; sourceTree = "<group>"; };
+		3EF67EB4A28DEAB545830A217D11FCC7 /* Pods-EmpowerCustomAdapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmpowerCustomAdapter_Tests-Info.plist"; sourceTree = "<group>"; };
+		40640734DD5D1C0E00C19AB6F814E403 /* Pods-EmpowerCustomAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmpowerCustomAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D247C194541517AB1EA92F52CBAE671 /* Pods-EmpowerCustomAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmpowerCustomAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55ABB527FE5BA20BBB82DACA1270E535 /* Pods-EmpowerCustomAdapter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmpowerCustomAdapter_Example"; path = Pods_EmpowerCustomAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58040DD2F3B6E19EEDD243756E6475FA /* Pods-EmpowerCustomAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmpowerCustomAdapter_Example-dummy.m"; sourceTree = "<group>"; };
+		6745D15392D3DEFC0AFC38BBD1E9807E /* Pods-EmpowerCustomAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmpowerCustomAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67910C8FAEF189539BA1EF647024E9C1 /* Pods-EmpowerCustomAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmpowerCustomAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		697B256685DBABF3C9B09F5CDF874C05 /* Pods-EmpowerCustomAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmpowerCustomAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		70374FDDDC7ABCE6F5687C6C99E4762A /* Pods-EmpowerCustomAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmpowerCustomAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B59ED4167C9049720D6E0C3E2F965E9 /* Pods-EmpowerCustomAdapter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmpowerCustomAdapter_Example-Info.plist"; sourceTree = "<group>"; };
+		81D14B496402AB19321ACA90BA68EA4C /* Pods-EmpowerCustomAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmpowerCustomAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
+		823C1ED1E1F95E5A0A0513E8A82A3894 /* EmpowerCustomAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmpowerCustomAdapter; path = EmpowerCustomAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993680857FE41CB7D78AF912FD52DC12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D06134A14CB8720D81DF2704D4A753 /* EmpowerCustomAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmpowerCustomAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		A559F1C0C86CDA23F8FF07D70B057CF2 /* Pods-EmpowerCustomAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmpowerCustomAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB4812D824988790765BFF3C5D3F48A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3667F91E20C7A859B82706776D34D1D /* EmpowerCustomAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EmpowerCustomAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD14D88A6B8BA943A3228DA89FF21497 /* Pods-EmpowerCustomAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmpowerCustomAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CFD2C8291578C8B8FEC55DB08119A894 /* EmpowerCustomAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmpowerCustomAdapter-umbrella.h"; sourceTree = "<group>"; };
+		D4E5BA9B861A6A26CD65DC1707680A82 /* Pods-EmpowerCustomAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmpowerCustomAdapter_Tests.modulemap"; sourceTree = "<group>"; };
+		E51FE3AAC0DD87485B52B530AA7417BD /* EmpowerCustomAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmpowerCustomAdapter.modulemap; sourceTree = "<group>"; };
+		EC2105306B658F2B1C329FAB2B7F528B /* Pods-EmpowerCustomAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmpowerCustomAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5E13E435CCC0969E2827D2D92483ABF /* EmpowerCustomAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmpowerCustomAdapter.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF74EC5D5B6C711E3E77D5AFFC2FA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB4433F4EED61E31A24C1DB1712FF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D263D25B201E2CF9C593895E1CEF4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10F3EE4E23737793289C114BA12F0CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DA95BD8A0242DE2701D32C4FCD10E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183804DDB61982E0C3984E763CDCAC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E088DF346928BCAAED29A59F0313F4 /* Pods-EmpowerCustomAdapter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5BA9B861A6A26CD65DC1707680A82 /* Pods-EmpowerCustomAdapter_Tests.modulemap */,
+				67910C8FAEF189539BA1EF647024E9C1 /* Pods-EmpowerCustomAdapter_Tests-acknowledgements.markdown */,
+				70374FDDDC7ABCE6F5687C6C99E4762A /* Pods-EmpowerCustomAdapter_Tests-acknowledgements.plist */,
+				81D14B496402AB19321ACA90BA68EA4C /* Pods-EmpowerCustomAdapter_Tests-dummy.m */,
+				3EF67EB4A28DEAB545830A217D11FCC7 /* Pods-EmpowerCustomAdapter_Tests-Info.plist */,
+				CD14D88A6B8BA943A3228DA89FF21497 /* Pods-EmpowerCustomAdapter_Tests-umbrella.h */,
+				40640734DD5D1C0E00C19AB6F814E403 /* Pods-EmpowerCustomAdapter_Tests.debug.xcconfig */,
+				4D247C194541517AB1EA92F52CBAE671 /* Pods-EmpowerCustomAdapter_Tests.release.xcconfig */,
+			);
+			name = "Pods-EmpowerCustomAdapter_Tests";
+			path = "Target Support Files/Pods-EmpowerCustomAdapter_Tests";
+			sourceTree = "<group>";
+		};
+		3CEC74861BEE19A9306263E09652ECE5 /* Pods-EmpowerCustomAdapter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D209FBD1F6386C9CA438C20632535 /* Pods-EmpowerCustomAdapter_Example.modulemap */,
+				6745D15392D3DEFC0AFC38BBD1E9807E /* Pods-EmpowerCustomAdapter_Example-acknowledgements.markdown */,
+				697B256685DBABF3C9B09F5CDF874C05 /* Pods-EmpowerCustomAdapter_Example-acknowledgements.plist */,
+				58040DD2F3B6E19EEDD243756E6475FA /* Pods-EmpowerCustomAdapter_Example-dummy.m */,
+				EC2105306B658F2B1C329FAB2B7F528B /* Pods-EmpowerCustomAdapter_Example-frameworks.sh */,
+				7B59ED4167C9049720D6E0C3E2F965E9 /* Pods-EmpowerCustomAdapter_Example-Info.plist */,
+				28CCFA83E08CB90B80C286878FC50179 /* Pods-EmpowerCustomAdapter_Example-umbrella.h */,
+				A559F1C0C86CDA23F8FF07D70B057CF2 /* Pods-EmpowerCustomAdapter_Example.debug.xcconfig */,
+				1D239A70DC56CDD4AFC121446F8A1869 /* Pods-EmpowerCustomAdapter_Example.release.xcconfig */,
+			);
+			name = "Pods-EmpowerCustomAdapter_Example";
+			path = "Target Support Files/Pods-EmpowerCustomAdapter_Example";
+			sourceTree = "<group>";
+		};
+		4D58EB1B4C507F2AC44D56FF763D73F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC74861BEE19A9306263E09652ECE5 /* Pods-EmpowerCustomAdapter_Example */,
+				29E088DF346928BCAAED29A59F0313F4 /* Pods-EmpowerCustomAdapter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7685C58A653016AFB6CE542A2BBE4A19 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECE682BAAE99C584B780D44F6AA9A3 /* EmpowerCustomAdapter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BDA4E93D4C0713EB5F0A46282A793EAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E51FE3AAC0DD87485B52B530AA7417BD /* EmpowerCustomAdapter.modulemap */,
+				05C1813A66BF8F672EBA5380AB07FC32 /* EmpowerCustomAdapter-dummy.m */,
+				3E038DDA059CD4E5BFE7017EF97C576F /* EmpowerCustomAdapter-Info.plist */,
+				072D6E456FE1CD60B82DC1C83B3B97A0 /* EmpowerCustomAdapter-prefix.pch */,
+				CFD2C8291578C8B8FEC55DB08119A894 /* EmpowerCustomAdapter-umbrella.h */,
+				A1D06134A14CB8720D81DF2704D4A753 /* EmpowerCustomAdapter.debug.xcconfig */,
+				F5E13E435CCC0969E2827D2D92483ABF /* EmpowerCustomAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmpowerCustomAdapter";
+			sourceTree = "<group>";
+		};
+		C1581121C495DE70FDAF3C3227B88A02 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C3667F91E20C7A859B82706776D34D1D /* EmpowerCustomAdapter.podspec */,
+				993680857FE41CB7D78AF912FD52DC12 /* LICENSE */,
+				ACB4812D824988790765BFF3C5D3F48A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4ECE682BAAE99C584B780D44F6AA9A3 /* EmpowerCustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				C1581121C495DE70FDAF3C3227B88A02 /* Pod */,
+				BDA4E93D4C0713EB5F0A46282A793EAB /* Support Files */,
+			);
+			name = EmpowerCustomAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7685C58A653016AFB6CE542A2BBE4A19 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CFAA1546FAA9B2435EA724B20ECA91DF /* Products */,
+				4D58EB1B4C507F2AC44D56FF763D73F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAA1546FAA9B2435EA724B20ECA91DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823C1ED1E1F95E5A0A0513E8A82A3894 /* EmpowerCustomAdapter */,
+				55ABB527FE5BA20BBB82DACA1270E535 /* Pods-EmpowerCustomAdapter_Example */,
+				23FFD2E2E5034882C7E19E737143F5A6 /* Pods-EmpowerCustomAdapter_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6FFE0247843D1E60B22B92E94B16963 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF7FF6B0393D891F387929C26CB5496 /* Pods-EmpowerCustomAdapter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4F8A5060ECCE62C98E4987F4C59F56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A258EF195599C04D19E460F6AC537EE2 /* EmpowerCustomAdapter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB7C9285062EB1E667B6F8E6169A9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F29F9FA59B5EF0C954D4946D52BEE79 /* Pods-EmpowerCustomAdapter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F828C2CA5F2F3715659718A32749A08 /* Pods-EmpowerCustomAdapter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F3B60A81F56BEE5187D712F77D53FC /* Build configuration list for PBXNativeTarget "Pods-EmpowerCustomAdapter_Tests" */;
+			buildPhases = (
+				E8AB7C9285062EB1E667B6F8E6169A9A /* Headers */,
+				E92E894CCD732BFF333D7B0AA8D2CE94 /* Sources */,
+				6D263D25B201E2CF9C593895E1CEF4D2 /* Frameworks */,
+				1462BC43F62809E734944EDB3C022C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B6A6229923845205EC5B3AC524A0CF /* PBXTargetDependency */,
+			);
+			name = "Pods-EmpowerCustomAdapter_Tests";
+			productName = Pods_EmpowerCustomAdapter_Tests;
+			productReference = 23FFD2E2E5034882C7E19E737143F5A6 /* Pods-EmpowerCustomAdapter_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		50BACA17578166EC2A41FEA2E4C20A92 /* EmpowerCustomAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E33BE104332B1C3F154A84807B8FFA /* Build configuration list for PBXNativeTarget "EmpowerCustomAdapter" */;
+			buildPhases = (
+				CD4F8A5060ECCE62C98E4987F4C59F56 /* Headers */,
+				FC2ADED6C6C90BE7C37930A47962B1E1 /* Sources */,
+				2CF74EC5D5B6C711E3E77D5AFFC2FA93 /* Frameworks */,
+				1E1B99E165F05103BA3E12986EAE11AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpowerCustomAdapter;
+			productName = EmpowerCustomAdapter;
+			productReference = 823C1ED1E1F95E5A0A0513E8A82A3894 /* EmpowerCustomAdapter */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F8A00F9DDEB523B58F94E8E3DAC5AA4 /* Pods-EmpowerCustomAdapter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE2CED3E5757454A2B54809F67C5958 /* Build configuration list for PBXNativeTarget "Pods-EmpowerCustomAdapter_Example" */;
+			buildPhases = (
+				C6FFE0247843D1E60B22B92E94B16963 /* Headers */,
+				F925FACEDE30667575047DAB493F1638 /* Sources */,
+				E2DA95BD8A0242DE2701D32C4FCD10E9 /* Frameworks */,
+				675E464B85C805754BFDCB60D63B1B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40F1A1DADF50917AB1FC713C19BC0F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-EmpowerCustomAdapter_Example";
+			productName = Pods_EmpowerCustomAdapter_Example;
+			productReference = 55ABB527FE5BA20BBB82DACA1270E535 /* Pods-EmpowerCustomAdapter_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CFAA1546FAA9B2435EA724B20ECA91DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50BACA17578166EC2A41FEA2E4C20A92 /* EmpowerCustomAdapter */,
+				5F8A00F9DDEB523B58F94E8E3DAC5AA4 /* Pods-EmpowerCustomAdapter_Example */,
+				2F828C2CA5F2F3715659718A32749A08 /* Pods-EmpowerCustomAdapter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1462BC43F62809E734944EDB3C022C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E1B99E165F05103BA3E12986EAE11AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675E464B85C805754BFDCB60D63B1B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92E894CCD732BFF333D7B0AA8D2CE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425742315F509121D473D3F8352CC2E9 /* Pods-EmpowerCustomAdapter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F925FACEDE30667575047DAB493F1638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22437431C6CE8EE1F9F1840488488AA9 /* Pods-EmpowerCustomAdapter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2ADED6C6C90BE7C37930A47962B1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11661F049717E707CF679D16719B21D0 /* EmpowerCustomAdapter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40F1A1DADF50917AB1FC713C19BC0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmpowerCustomAdapter;
+			target = 50BACA17578166EC2A41FEA2E4C20A92 /* EmpowerCustomAdapter */;
+			targetProxy = AA2C9B79529B62E4B05402156AA5947D /* PBXContainerItemProxy */;
+		};
+		F2B6A6229923845205EC5B3AC524A0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EmpowerCustomAdapter_Example";
+			target = 5F8A00F9DDEB523B58F94E8E3DAC5AA4 /* Pods-EmpowerCustomAdapter_Example */;
+			targetProxy = A25C0A98C770265E1BE4235044E92D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10E7598A96118E2276904CF063A3BDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40640734DD5D1C0E00C19AB6F814E403 /* Pods-EmpowerCustomAdapter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Tests/Pods-EmpowerCustomAdapter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Tests/Pods-EmpowerCustomAdapter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		305EB865C5EB2AE939433C77D96778A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D247C194541517AB1EA92F52CBAE671 /* Pods-EmpowerCustomAdapter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Tests/Pods-EmpowerCustomAdapter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Tests/Pods-EmpowerCustomAdapter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		499C412178452A0305890CF71016FEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D239A70DC56CDD4AFC121446F8A1869 /* Pods-EmpowerCustomAdapter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Example/Pods-EmpowerCustomAdapter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Example/Pods-EmpowerCustomAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55599169FDE56C65D237B2E317EA6A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A559F1C0C86CDA23F8FF07D70B057CF2 /* Pods-EmpowerCustomAdapter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Example/Pods-EmpowerCustomAdapter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmpowerCustomAdapter_Example/Pods-EmpowerCustomAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A11FE18547550491A7851549F54AECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E13E435CCC0969E2827D2D92483ABF /* EmpowerCustomAdapter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter.modulemap";
+				PRODUCT_MODULE_NAME = EmpowerCustomAdapter;
+				PRODUCT_NAME = EmpowerCustomAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A230A438D95A4E1BB5647F2D1F4C6856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D06134A14CB8720D81DF2704D4A753 /* EmpowerCustomAdapter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmpowerCustomAdapter/EmpowerCustomAdapter.modulemap";
+				PRODUCT_MODULE_NAME = EmpowerCustomAdapter;
+				PRODUCT_NAME = EmpowerCustomAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F3B60A81F56BEE5187D712F77D53FC /* Build configuration list for PBXNativeTarget "Pods-EmpowerCustomAdapter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E7598A96118E2276904CF063A3BDB5 /* Debug */,
+				305EB865C5EB2AE939433C77D96778A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE2CED3E5757454A2B54809F67C5958 /* Build configuration list for PBXNativeTarget "Pods-EmpowerCustomAdapter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55599169FDE56C65D237B2E317EA6A24 /* Debug */,
+				499C412178452A0305890CF71016FEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E33BE104332B1C3F154A84807B8FFA /* Build configuration list for PBXNativeTarget "EmpowerCustomAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230A438D95A4E1BB5647F2D1F4C6856 /* Debug */,
+				6A11FE18547550491A7851549F54AECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

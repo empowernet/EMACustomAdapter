@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1523298AE0424B8D8207B502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1A0A628C68BDCDB5E0EC87A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1523298AE0424B8D8207B502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A0A628C68BDCDB5E0EC87A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A475AC7D27805CBE6588DCE /* Pods_EmpowerCustomAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmpowerCustomAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD1A42DDD17A0A0AFCA825 /* Pods-EmpowerCustomAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmpowerCustomAdapter_Example.debug.xcconfig"; path = "Target Support Files/Pods-EmpowerCustomAdapter_Example/Pods-EmpowerCustomAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		52747D51BF3AD0D5C2DC7490 /* EmpowerCustomAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmpowerCustomAdapter.podspec; path = ../EmpowerCustomAdapter.podspec; sourceTree = "<group>"; };
+		52747D51BF3AD0D5C2DC7490 /* EmpowerCustomAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmpowerCustomAdapter.podspec; path = ../EmpowerCustomAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* EmpowerCustomAdapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpowerCustomAdapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				99EFC7F3ACC669C2A94EFEE5 /* Pods-EmpowerCustomAdapter_Tests.debug.xcconfig */,
 				D09E357F639BE866B366C87F /* Pods-EmpowerCustomAdapter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

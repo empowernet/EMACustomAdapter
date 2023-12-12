@@ -1,0 +1,22 @@
+{
+  "name": "EmpowerCustomAdapter",
+  "version": "0.1.0",
+  "summary": "A short description of EmpowerCustomAdapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "senaaltun@gmail.com": "senaaltun@nokta.com"
+  },
+  "source": {
+    "git": "https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EmpowerCustomAdapter/Classes/**/*"
+}

@@ -1,42 +1,21 @@
-#
-# Be sure to run `pod lib lint EmpowerCustomAdapter.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'EmpowerCustomAdapter'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EmpowerCustomAdapter.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.2'
+  s.summary          = 'EmpowerCustomAdapter for displaying ads from Empower.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Empower Custom Adapter for displaying ads from Empower
                        DESC
 
-  s.homepage         = 'https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/empowernet/EmpowerCustomAdapter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'senaaltun@gmail.com' => 'senaaltun@nokta.com' }
-  s.source           = { :git => 'https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.author           = { 'Noktacom Medya' => 'senaaltun@nokta.com' }
+  s.source           = { :git => 'https://github.com/empowernet/EmpowerCustomAdapter.git', :tag => '1.0.2' }
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'EmpowerCustomAdapter/Classes/**/*'
+  s.frameworks = 'Foundation'
+  s.dependency  'Google-Mobile-Ads-SDK'
+  s.static_framework = true
   
-  # s.resource_bundles = {
-  #   'EmpowerCustomAdapter' => ['EmpowerCustomAdapter/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

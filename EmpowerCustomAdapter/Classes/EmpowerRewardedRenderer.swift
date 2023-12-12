@@ -27,7 +27,7 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
         
         var adJSON: [String: Any] = [:]
         
-        print("EmpowerRewardedRendererSwift load rewarded")
+        DebugManager.printLog("Loading rewarded")
         
         if let receivedParameter = adConfiguration.credentials.settings["parameter"] as? String {
             adJSON = convertToDictionary(text: receivedParameter) ?? [:]
@@ -38,8 +38,6 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
                 if empowerAdModel.hasOptimized {
                     if let size = adJSON["optimize"] as? Int {
                         for index in stride(from: size, through: 1, by: -1) {
-                            print("AdUnits: \(empowerAdModel.code)_FP\(index)")
-                            
                             codes.append("\(empowerAdModel.code)_FP\(index)")
                         }
                         codes.append(empowerAdModel.code)
@@ -51,7 +49,7 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
             GADRewardedAd.load(withAdUnitID: codes[waterfallIndex], request: adRequest, completionHandler:  { [self] ad, error in
                 
             if let error = error {
-                print("EmpowerRewardedRendererSwift Failed to load rewarded ad with error: \(error.localizedDescription)")
+                DebugManager.printLog("Failed to load rewarded ad with error: \(error.localizedDescription)")
                   
                 if let handler = completionHandler {
                     adLoadCallback = handler(self, error)
@@ -65,7 +63,7 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
                     adLoadCallback = handler(self, nil)
                 }
                 
-                print("EmpowerRewardedRendererSwift Rewarded ad loaded.")
+                DebugManager.printLog("Rewarded ad loaded.")
             })
             
             empowerRewardedAd?.fullScreenContentDelegate = self
@@ -75,6 +73,8 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
     func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
         
         if codes.count-1 > waterfallIndex {
+            DebugManager.printLog("Trying another ad unit.")
+            
             waterfallIndex += 1
             
             self.loadRewarded()
@@ -82,7 +82,7 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
         } else {
             waterfallIndex = 0
             
-            print("EmpowerRewardedRendererSwift Failed to load rewarded ad with error: \(error.localizedDescription)")
+            DebugManager.printLog("Failed to load rewarded ad with error: \(error.localizedDescription)")
             
             if let handler = completionHandler {
                 adLoadCallback = handler(self, error)
@@ -98,7 +98,7 @@ class EmpowerRewardedRendererSwift: NSObject, GADMediationRewardedAd, GADFullScr
                 
             })
         } else {
-            print("EmpowerRewardedRendererSwift Rewarded ad is not ready.")
+            DebugManager.printLog("Rewarded ad is not ready.")
         }
     }
     

@@ -22,7 +22,7 @@ pod 'EmpowerCustomAdapter'
 
 ## Author
 
-senaaltun@gmail.com, senaaltun@nokta.com
+Sena Altun, senaaltun@nokta.com
 
 ## License
 

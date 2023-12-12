@@ -26,10 +26,10 @@ import GoogleMobileAds
         // This is where you will initialize the SDK that this custom event is built
         // for. Upon finishing the SDK initialization, call the completion handler
         // with success.
+          
+          DebugManager.printLog("Initialize Empower Custom Mediation Adapter")
         
-          for credential in configuration.credentials {
-              print("EmpowerMediationAdapter initialized \(credential.settings.keys) \(credential.settings.values)")
-          }
+          
 
         completionHandler(nil)
       }
@@ -47,7 +47,6 @@ import GoogleMobileAds
     }
     
     func loadBanner(for adConfiguration: GADMediationBannerAdConfiguration, completionHandler: @escaping GADMediationBannerLoadCompletionHandler) {
-        print("EmpowerMediationAdapter load banner")
         
         bannerAd = EmpowerBannerRendererSwift()
         bannerAd!.adConfiguration = adConfiguration
@@ -57,7 +56,6 @@ import GoogleMobileAds
     }
     
     func loadInterstitial(for adConfiguration: GADMediationInterstitialAdConfiguration, completionHandler: @escaping GADMediationInterstitialLoadCompletionHandler) {
-        print("EmpowerMediationAdapter load interstitial")
         
         let empowerInterstitialRenderer = EmpowerInterstitialRendererSwift()
         empowerInterstitialRenderer.adConfiguration = adConfiguration
@@ -68,9 +66,6 @@ import GoogleMobileAds
     }
     
     func loadRewardedAd(for adConfiguration: GADMediationRewardedAdConfiguration, completionHandler: @escaping GADMediationRewardedLoadCompletionHandler) {
-        
-        print("EmpowerMediationAdapter load rewarded")
-        
         
         let empowerRewardedRenderer = EmpowerRewardedRendererSwift()
         empowerRewardedRenderer.adConfiguration = adConfiguration

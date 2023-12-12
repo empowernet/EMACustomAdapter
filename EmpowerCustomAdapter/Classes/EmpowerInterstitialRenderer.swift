@@ -25,7 +25,7 @@ class EmpowerInterstitialRendererSwift: NSObject, GADMediationInterstitialAd, GA
         
         var adJSON: [String: Any] = [:]
         
-        print("EmpowerInterstitialRenderer load interstitial")
+        DebugManager.printLog("Loading interstitial")
         
         if let receivedParameter = adConfiguration.credentials.settings["parameter"] as? String {
             adJSON = convertToDictionary(text: receivedParameter) ?? [:]
@@ -54,14 +54,14 @@ class EmpowerInterstitialRendererSwift: NSObject, GADMediationInterstitialAd, GA
               
                 
                 if codes.count-1 > waterfallIndex {
-                    print("EmpowerInterstitialRenderer Waterfall interstitial failed to load interstitial ad with error: \(error.localizedDescription)")
+                    DebugManager.printLog("Waterfall interstitial failed to load interstitial ad with error: \(error.localizedDescription)")
                     waterfallIndex += 1
                     
                     self.loadInterstitial()
                 } else {
                     waterfallIndex = 0
                     
-                    print("EmpowerInterstitialRenderer Failed to load interstitial ad with error: \(error.localizedDescription)")
+                    DebugManager.printLog("Failed to load interstitial ad with error: \(error.localizedDescription)")
                 }
                 
                 if let handler = completionHandler {
@@ -76,7 +76,7 @@ class EmpowerInterstitialRendererSwift: NSObject, GADMediationInterstitialAd, GA
             
             empowerInterstitialAd?.fullScreenContentDelegate = self
             
-            print("EmpowerInterstitialRenderer Interstitial loaded for: \(codes[waterfallIndex]) for index: \(waterfallIndex)")
+            DebugManager.printLog("Interstitial loaded for: \(codes[waterfallIndex]) for index: \(waterfallIndex)")
             
             waterfallIndex = 0
             
@@ -96,7 +96,7 @@ class EmpowerInterstitialRendererSwift: NSObject, GADMediationInterstitialAd, GA
         } else {
             waterfallIndex = 0
             
-            print("EmpowerInterstitialRenderer Failed to load interstitial ad with error: \(error.localizedDescription)")
+            DebugManager.printLog("Failed to load interstitial ad with error: \(error.localizedDescription)")
             
             if let handler = completionHandler {
                 adLoadCallback = handler(self, error)
@@ -108,7 +108,7 @@ class EmpowerInterstitialRendererSwift: NSObject, GADMediationInterstitialAd, GA
         if empowerInterstitialAd != nil {
             empowerInterstitialAd?.present(fromRootViewController: viewController)
         } else {
-            print("EmpowerInterstitialRenderer interstitial is not ready.")
+            DebugManager.printLog("Interstitial is not ready.")
         }
     }
     

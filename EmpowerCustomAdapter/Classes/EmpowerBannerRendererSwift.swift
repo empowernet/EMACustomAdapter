@@ -29,7 +29,7 @@ class EmpowerBannerRendererSwift: NSObject, GADMediationBannerAd, GADBannerViewD
      required override init() {
        super.init()
          
-         print("Custom Event banner renderer")
+         DebugManager.printLog("Initializing Empower Custom Adapter")
      }
 
     
@@ -38,17 +38,14 @@ class EmpowerBannerRendererSwift: NSObject, GADMediationBannerAd, GADBannerViewD
         
         var adJSON: [String: Any] = [:]
         
-        print("EmpowerBannerRenderer load banner")
+        DebugManager.printLog("Loading banner")
         
         if let receivedParameter = adConfiguration.credentials.settings["parameter"] as? String {
-            print("EmpowerBannerRenderer raw \(receivedParameter)")
-            
             adJSON = convertToDictionary(text: receivedParameter) ?? [:]
             
             
             let empowerAdModel = EmpowerAdModel(data: adJSON, adSize: adConfiguration.adSize)
             
-            print("EmpowerBannerRenderer \(empowerAdModel.code) \(adConfiguration.adSize)")
             
             if codes.isEmpty {
                 if empowerAdModel.hasOptimized {
@@ -64,7 +61,6 @@ class EmpowerBannerRendererSwift: NSObject, GADMediationBannerAd, GADBannerViewD
                     codes.append(empowerAdModel.code)
                 }
             }
-            print("EmpowerBannerRenderer \(adConfiguration.adSize)")
             
             empowerAdView = GAMBannerView(adSize: self.adConfiguration.adSize)
             empowerAdView!.rootViewController = self.adConfiguration.topViewController
@@ -78,7 +74,7 @@ class EmpowerBannerRendererSwift: NSObject, GADMediationBannerAd, GADBannerViewD
     }
     
     func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("EmpowerBannerRenderer bannerViewDidReceiveAd")
+        DebugManager.printLog("Empower bannerViewDidReceiveAd")
         
         waterfallIndex = 0
         
@@ -89,10 +85,10 @@ class EmpowerBannerRendererSwift: NSObject, GADMediationBannerAd, GADBannerViewD
     }
     
     func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: Error) {
-        print("EmpowerBannerRenderer fail to load ad : \(error.localizedDescription)")
+        DebugManager.printLog("Fail to load ad : \(error.localizedDescription)")
         
         if codes.count-1 > waterfallIndex {
-            print("EmpowerBannerRenderer failed to load ad for ad unit: \(codes[waterfallIndex]) for index: \(waterfallIndex) trying another ad unit")
+            DebugManager.printLog("Failed to load ad for ad unit: \(codes[waterfallIndex]) for index: \(waterfallIndex) trying another ad unit")
             
             waterfallIndex += 1
             

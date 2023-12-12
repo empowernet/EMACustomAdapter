@@ -67,7 +67,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EmpowerCustomAdapter: 08adcd844ab15029d45565ab974568accd226755
+  EmpowerCustomAdapter: c6b29c98c946b89067bb8b4da4e6f927f0dc424a
   Google-Mobile-Ads-SDK: 69daa7fb42061b425340706e382e87fab3e666a3
   GoogleAppMeasurement: 68afe759316673c6554dac35a0c7ae8f5d6cb4ed
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054

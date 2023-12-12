@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "summary": "EmpowerCustomAdapter for displaying ads from Empower.",
   "description": "Empower Custom Adapter for displaying ads from Empower",
-  "homepage": "https://github.com/empowernet/EmpowerCustomAdapter",
+  "homepage": "https://github.com/empowernet/EMACustomAdapter.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,14 +12,14 @@
     "Noktacom Medya": "senaaltun@nokta.com"
   },
   "source": {
-    "git": "https://github.com/empowernet/EmpowerCustomAdapter.git",
+    "git": "https://github.com/empowernet/EMACustomAdapter.git",
     "tag": "1.0.2"
   },
   "platforms": {
     "ios": "12.0"
   },
   "swift_versions": "5.0",
-  "source_files": "EmpowerCustomAdapter/Classes/**/*",
+  "source_files": "EmpowerCustomAdapter/Classes/**/*.swift",
   "frameworks": "Foundation",
   "dependencies": {
     "Google-Mobile-Ads-SDK": [

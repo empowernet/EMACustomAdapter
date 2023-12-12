@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
 Empower Custom Adapter for displaying ads from Empower
                        DESC
 
-  s.homepage         = 'https://github.com/empowernet/EmpowerCustomAdapter'
+  s.homepage         = 'https://github.com/empowernet/EMACustomAdapter.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Noktacom Medya' => 'senaaltun@nokta.com' }
-  s.source           = { :git => 'https://github.com/empowernet/EmpowerCustomAdapter.git', :tag => '1.0.2' }
+  s.source           = { :git => 'https://github.com/empowernet/EMACustomAdapter.git', :tag => '1.0.2' }
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 

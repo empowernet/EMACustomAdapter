@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  EmpowerCustomAdapter
 //
-//  Created by senaaltun@gmail.com on 12/12/2023.
-//  Copyright (c) 2023 senaaltun@gmail.com. All rights reserved.
-//
 
 import UIKit
 
@@ -14,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

@@ -5,9 +5,6 @@ platform :ios, '10.0'
 target 'EmpowerCustomAdapter_Example' do
   pod 'EmpowerCustomAdapter', :path => '../'
 
-  target 'EmpowerCustomAdapter_Tests' do
-    inherit! :search_paths
+  pod 'Google-Mobile-Ads-SDK'
 
-    
-  end
 end

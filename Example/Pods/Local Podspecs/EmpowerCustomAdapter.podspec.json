@@ -1,22 +1,31 @@
 {
   "name": "EmpowerCustomAdapter",
-  "version": "0.1.0",
-  "summary": "A short description of EmpowerCustomAdapter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter",
+  "version": "1.0.2",
+  "summary": "EmpowerCustomAdapter for displaying ads from Empower.",
+  "description": "Empower Custom Adapter for displaying ads from Empower",
+  "homepage": "https://github.com/empowernet/EmpowerCustomAdapter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "senaaltun@gmail.com": "senaaltun@nokta.com"
+    "Noktacom Medya": "senaaltun@nokta.com"
   },
   "source": {
-    "git": "https://github.com/senaaltun@gmail.com/EmpowerCustomAdapter.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/empowernet/EmpowerCustomAdapter.git",
+    "tag": "1.0.2"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "EmpowerCustomAdapter/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "EmpowerCustomAdapter/Classes/**/*",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+
+    ]
+  },
+  "static_framework": true,
+  "swift_version": "5.0"
 }
